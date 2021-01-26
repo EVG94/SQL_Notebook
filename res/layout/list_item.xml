@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@android:drawable/editbox_background">
+
+    <TextView
+        android:id="@+id/tv_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+
+
+        android:fontFamily="casual"
+        android:gravity="center_vertical"
+
+        android:padding="10dp"
+        android:text="fgf"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

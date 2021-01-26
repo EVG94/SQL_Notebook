@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/relBloknote"
+                    android:layout_height="170dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/bloknotefon">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="10dp"
+                        android:fontFamily="casual"
+                        android:layout_centerVertical="true"
+
+
+                        android:text="My notebook"
+                        android:textColor="@color/black"
+                        android:textSize="23dp" />
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/taskinday"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/relDostijeniya"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/dostijeniyafon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="45dp"
+                    android:fontFamily="casual"
+                    android:layout_centerVertical="true"
+
+
+                    android:text="My success"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/dostijeniya"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/myCalendar"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/fon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="45dp"
+                    android:fontFamily="casual"
+                    android:layout_centerVertical="true"
+
+
+                    android:text="My Date"
+                    android:textColor="@color/white"
+                    android:textSize="23dp" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/relMaps"
+                android:layout_height="170dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/fon3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    android:fontFamily="casual"
+                    android:layout_centerVertical="true"
+
+
+                    android:text="Maps Search"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+        
+
+
+
+        
+    </LinearLayout>
+
+
+</ScrollView>

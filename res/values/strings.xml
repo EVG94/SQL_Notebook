@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BloknotSQL</string>
+    <string name="nameAPP">Notebook</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
